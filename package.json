@@ -1,0 +1,9 @@
+{
+  "name": "dotengine",
+  "version": "1.0.0",
+  "description": "dotEngine javascript sdk",
+  "main": "lib/dotEngine.min.js",
+  "repository": "git@github.com:dotEngine/dotEngine-js-sdk.git",
+  "author": "notedit <notedit@gmail.com>",
+  "license": "MIT"
+}
