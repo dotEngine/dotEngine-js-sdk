@@ -1,6 +1,6 @@
 {
   "name": "dotengine",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "dotEngine javascript sdk",
   "main": "lib/dotEngine.min.js",
   "repository": "git@github.com:dotEngine/dotEngine-js-sdk.git",
