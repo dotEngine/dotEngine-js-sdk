@@ -5,5 +5,8 @@
   "main": "lib/dotEngine.min.js",
   "repository": "git@github.com:dotEngine/dotEngine-js-sdk.git",
   "author": "notedit <notedit@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.16.2"
+  }
 }
