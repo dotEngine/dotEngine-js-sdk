@@ -14,7 +14,7 @@
     }
 </style>
 
-<script src='./lib/dotEngine.min.js?t=timestamp'></script>
+<script src='./dist/dotEngine-1.1.0.min.js?t=timestamp'></script>
 <script type='text/javascript'>
 
 window.localStorage.setItem('debug', '*ERROR*');
@@ -80,17 +80,12 @@ function gotDevices(deviceInfos) {
 	}
 }
 
-
-
 function init() {
 
 	localVideo = document.getElementById('local_video');
-
 	remoteContainer = document.getElementById('remote_container');
-
 	videoSelect =  document.getElementById('videoSource');
 	audioSelect =  document.getElementById('audioSource');
-
 
 	navigator.mediaDevices.enumerateDevices().then(gotDevices)
 
@@ -103,12 +98,10 @@ function init() {
     }});
 
 	localStream.addListener('errors', (error) => {
-
 		console.log('errors ', error);
 	});
 
 	localStream.setupLocalMedia();
-	
 
 	localStream.addListener('initLocalStream', ()=> {
 
@@ -200,8 +193,6 @@ function init() {
 			console.log('addStream ');
 			dotEngine.addStream(localStream);
 		}
-
-
 	});
 
 	dotEngine.generateTestToken(tokenUrl,appSecret,room,user,(error,token) => {
