@@ -3,7 +3,7 @@
 dotEngine 音视频实时通话SDK. 应用场景一对一通话, 多对多通话, 一对多直播, 连麦直播, 抓娃娃, 支持定制以及二次开发
 
 
-## 特点 
+## 特性
 
 - 支持音视频以及单独音频单独视频
 - 音量回调
@@ -14,6 +14,8 @@ dotEngine 音视频实时通话SDK. 应用场景一对一通话, 多对多通话
 - 视频渲染支持全显示以及填充模式
 - 断网重连
 - Simulcast
+- 屏幕共享  **https://github.com/dotEngine/screen-share-extension**
+
 
 ## 使用
 
