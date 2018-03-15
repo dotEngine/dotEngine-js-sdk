@@ -30,6 +30,8 @@ dotEngine 音视频实时通话SDK. 应用场景一对一通话, 多对多通话
 
 
 ```
+// 需要先安装node   https://nodejs.org/en/download/package-manager/
+
 git clone https://github.com/dotEngine/dotEngine-js-sdk.git
 
 cd dotEngine-js-sdk/
