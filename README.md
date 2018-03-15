@@ -15,6 +15,15 @@ dotEngine 音视频实时通话SDK. 应用场景一对一通话, 多对多通话
 - 断网重连
 - Simulcast
 - 屏幕共享  **https://github.com/dotEngine/screen-share-extension**
+- 视频录制
+- 支持TCP模式
+
+
+
+## 计划支持 
+
+- rtmp/rtsp/file 输入 
+- rtmp/file 输出
 
 
 ## 使用
@@ -29,6 +38,7 @@ npm install
 
 DEBUG=* node server.js
 
+// 然后在浏览器打开 http://localhost:4001/
 ```
 
 
