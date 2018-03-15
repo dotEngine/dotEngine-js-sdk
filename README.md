@@ -51,7 +51,7 @@ DEBUG=* node server.js
 
 ## 文档 
 
-docs[http://docs.dot.cc]
+[docs](http://docs.dot.cc)
 
 
 ## 商业开发以及技术支持 
@@ -60,6 +60,6 @@ docs[http://docs.dot.cc]
 - 定制部署
 - 技术咨询
 
-邮箱: leeoxiang@gmail.com 
+邮箱: <leeoxiang@gmail.com>
 
 
